@@ -225,6 +225,8 @@ body {
     top: 275px;
     background: #4177DC;
     border-radius: 4px;
+    color: #FFFFFF;
+    border: none;
 }
 
 .about-btn:hover {
@@ -388,12 +390,6 @@ body {
     border-radius: 16px;
 }
 
-.btn-all:hover {
-    cursor: pointer;
-    background-color: #111213;
-    color: #F1F2F3;
-}
-
 .btn {
     width: 52px;
     height: 52px;
@@ -401,6 +397,8 @@ body {
     top: 82px;
     background: #111213;
     border-radius: 16px;
+    border: none;
+    color: #FFFFFF;
 }
 
 .btn:hover {
@@ -551,6 +549,8 @@ body {
     background: #4177DC;
     border-radius: 4px;
     margin-bottom: 58px;
+    color: #FFFFFF;
+    border: none;
 }
 
 /* Offer end */
