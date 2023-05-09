@@ -11,6 +11,7 @@ body {
 }
 
 .container {
+    margin: 0 auto;
     background-color: #0A0A0B;
 }
 
@@ -19,8 +20,7 @@ body {
 .header {
     width: 1099px;
     height: 80px;
-    margin-left: 88px;
-    margin-top: 0px;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -80,6 +80,9 @@ body {
 
 /* Homepage start */
 
+.home {
+    margin: 0 auto;
+}
 
 .home-title {
     display: flex;
@@ -184,16 +187,18 @@ body {
     display: flex;
     width: 1280px;
     height: 372px;
+    margin-left: 155px;
     margin-top: 72px;
     margin-bottom: 88px;
     gap: 88px;
 }
 
+
 .data-about {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 72px 0px 88px;
+    padding: 0;
     gap: 10px;
 }
 
@@ -234,6 +239,7 @@ body {
     padding: 72px 0px 48px;
     width: 1280px;
     height: 636px;
+    margin: 0 auto;
     margin-bottom: 64px;
 }
 
@@ -244,7 +250,7 @@ body {
     line-height: 140%;
     text-align: center;
     color: #F1F2F3;
-    margin: 72px 64px auto auto;
+    margin: 72px auto;
 }
 
 .wrapper-popular {
@@ -343,10 +349,9 @@ body {
 }
 
 .featured {
+    margin: 0 auto;
     width: 1280px;
     height: 713px;
-    left: 0px;
-    top: 2047px;
     background-image: url(/icons/Map.svg);
     background-repeat: no-repeat;
     background-position: center;
@@ -405,6 +410,7 @@ body {
 }
 
 .featured2 {
+    margin: 0 auto;
     width: 1280px;
     height: 952px;
     background: #0A0A0B;
@@ -489,11 +495,11 @@ body {
 /* Offer start */
 
 .offer {
-    width: 1280px;
+    width: 100%;
     height: 392px;
-    left: 0px;
-    top: 3806px;
     background-image: url(/images/subscribe-bg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .data-offer {
@@ -557,11 +563,9 @@ body {
     justify-content: center;
     align-items: center;
     gap: 106px;
-    padding: 72px 0px 64px;
+    padding: 72px;
     width: 1280px;
     height: 204px;
-    left: 0px;
-    top: 4198px;
     background: #0A0A0B;
 }
 
@@ -577,9 +581,8 @@ body {
 .footer {
     width: 1280px;
     height: 395px;
-    left: 0px;
-    top: 4402px;
     background: #0A0A0B;
+    margin: 0 auto;
 }
 
 .footer-container {
